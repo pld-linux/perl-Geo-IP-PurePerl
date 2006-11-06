@@ -6,6 +6,7 @@
 %define	pdir	Geo
 %define	pnam	IP-PurePerl
 Summary:	Geo::IP::PurePerl - Look up country by IP Address
+Summary(pl):	Geo::IP::PurePerl - wyszukiwanie pañstw po adresach IP
 Name:		perl-Geo-IP-PurePerl
 Version:	1.17
 Release:	1
@@ -29,6 +30,16 @@ This module can be used to automatically select the geographically
 closest mirror, to analyze your web server logs to determine the
 countries of your visiters, for credit card fraud detection, and for
 software export controls.
+
+%description -l pl
+Ten modu³ u¿ywa bazy danych opartej na pliku. Baza danych zawiera po
+prostu bloki IP jako klucze i pañstwa jako warto¶ci. Baz danych jest
+bardziej kompletna i dok³adna ni¿ wyszukiwanie odwrotnych DNS.
+
+Modu³ ten mo¿e byæ u¿ywany do automatycznego wyboru najbli¿szego
+geograficznie serwera lustrzanego, analizy logów serwera WWW w celu
+okre¶lenia pañstw odwiedzaj±cych, wykrywania oszustw zwi±zanych z
+kartami kredytowymi oraz kontroli eksportu oprogramowania.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
