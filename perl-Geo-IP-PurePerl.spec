@@ -6,7 +6,7 @@
 %define	pdir	Geo
 %define	pnam	IP-PurePerl
 Summary:	Geo::IP::PurePerl - Look up country by IP Address
-Summary(pl.UTF-8):   Geo::IP::PurePerl - wyszukiwanie państw po adresach IP
+Summary(pl.UTF-8):	Geo::IP::PurePerl - wyszukiwanie państw po adresach IP
 Name:		perl-Geo-IP-PurePerl
 Version:	1.17
 Release:	1
