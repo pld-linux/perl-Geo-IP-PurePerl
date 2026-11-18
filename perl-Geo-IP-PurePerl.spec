@@ -7,13 +7,13 @@
 Summary:	Geo::IP::PurePerl - Look up country by IP Address
 Summary(pl.UTF-8):	Geo::IP::PurePerl - wyszukiwanie państw po adresach IP
 Name:		perl-Geo-IP-PurePerl
-Version:	1.25
-Release:	5
+Version:	1.26
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a47a1b71f7cd7c46cca9efcc448e0726
+# Source0-md5:	bf8db98269a6be775d487c3a5266a609
 URL:		http://search.cpan.org/dist/Geo-IP-PurePerl/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
